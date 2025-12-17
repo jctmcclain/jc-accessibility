@@ -1,1 +1,3 @@
-# jc-accessibility
+# Juniata Accessibility Information 
+
+## Resources
