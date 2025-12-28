@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faculty Accessibility Quick-Reference Sheet</title>
+  <style>
+    :root {
+      --brand: #0A3D62;
+      --text: #111;
+      --muted: #555;
+    }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "DejaVu Sans", sans-serif; color: var(--text); margin: 0; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 24px; }
+    header { border-bottom: 4px solid var(--brand); margin-bottom: 16px; }
+    h1 { font-size: 1.8rem; color: var(--brand); margin: 0 0 6px; }
+    .subtitle { font-size: 1rem; margin: 0 0 12px; }
+    section { margin-block: 16px; }
+    h2 { font-size: 1.1rem; color: var(--brand); margin: 10px 0 6px; }
+    ul { margin: 8px 0 4px 24px; }
+    li { margin: 4px 0; }
+    .note { margin-top: 12px; padding: 10px 12px; border: 1px solid #ddd; border-radius: 8px; background: #f9fbfc; }
+    .refs { font-size: .9rem; color: var(--muted); }
+    footer { margin-top: 18px; font-size: .9rem; color: var(--muted); }
+    /* prefers-reduced-motion */
+    @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; animation: none !important; transition: none !important; } }
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+    <header>
+      <h1>✅ Faculty Accessibility Quick Reference Sheet</h1>
+      <p class="subtitle">Make course materials inclusive with quick, high‑impact steps. <span aria-label="Standards">(WCAG 2.2 AA + PDF/UA)</span></p>
+    </header>
+
+    <section aria-labelledby="structure">
+      <h2 id="structure">📑 Use Built‑In Structure</h2>
+      <ul>
+        <li>Apply <strong>Heading styles</strong> (Title = Heading 1; sections = Heading 2).</li>
+        <li>Use <strong>true lists</strong> and <strong>true tables</strong> (avoid merged cells; set header row).</li>
+        <li>Avoid text boxes for main content—screen readers may skip them.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="visuals">
+      <h2 id="visuals">🖼️ Describe Visuals</h2>
+      <ul>
+        <li>Add <strong>alt text</strong> that explains the image’s content and purpose.</li>
+        <li>Mark decorative images as decorative—don’t distract screen‑reader users.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="links">
+      <h2 id="links">🔗 Make Links Clear</h2>
+      <ul>
+        <li>Use meaningful link text (e.g., “Excel Accessibility Guide”).</li>
+        <li>Avoid “Click here” and bare URLs when possible.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="contrast">
+      <h2 id="contrast">🎨 Check Color & Contrast</h2>
+      <ul>
+        <li>Text contrast ≥ <strong>4.5:1</strong> (AA).</li>
+        <li>Icons/graphics contrast ≥ <strong>3:1</strong>.</li>
+        <li>Don’t rely on color alone—add labels or patterns.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="lang">
+      <h2 id="lang">🌐 Language & Titles</h2>
+      <ul>
+        <li>Set document <strong>language</strong> (e.g., English‑US).</li>
+        <li>Give the file a clear <strong>Title</strong> (not “Document1”).</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="export">
+      <h2 id="export">📤 Export Smart</h2>
+      <ul>
+        <li>Enable <strong>Tagged PDF</strong> when exporting.</li>
+        <li>Avoid “Print to PDF” (it removes tags).</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="simple">
+      <h2 id="simple">✨ Keep It Simple</h2>
+      <ul>
+        <li>Use selectable <strong>real text</strong>, not scans of text.</li>
+        <li>Trim web navigation clutter before saving to PDF.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="check">
+      <h2 id="check">✅ Quick Self‑Check</h2>
+      <ul>
+        <li>Word/PowerPoint/Excel: <strong>Review ▸ Check Accessibility</strong>.</li>
+        <li>In Acrobat Pro: <strong>Tools ▸ Accessibility ▸ Full Check</strong>.</li>
+      </ul>
+    </section>
+
+    <div class="note" role="note">
+      <p><strong>Why it matters:</strong> Students using screen readers, magnifiers, keyboards, and mobile devices rely on these basics. Doing them upfront saves hours of remediation and ensures equitable access.</p>
+    </div>
+
+    <footer class="refs" aria-labelledby="refs">
+      <p id="refs"><strong>References:</strong> WCAG 2.2 Quick Reference (W3C) • Non‑text & text contrast thresholds • PDF/UA (ISO 14289‑1) for tagged PDF structure.</p>
+    </footer>
+  </main>
+</body>
+</html>

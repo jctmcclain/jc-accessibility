@@ -94,29 +94,33 @@
       </button>
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-<h5>Tips from &quot;<a href="https://community.articulate.com/kb/e-books/6-best-practices-for-designing-accessible-e-learning/1193957">6 Best Practice for Designing Accessible E-Learning</a>&quot; Guide</h5>
-<i>2015 Articulate Global, Inc.</i>
-<ul>   
-<li>Make sure all course elements are keyboard accessible.</li>
-<li>Provide a textual alternative to non-text content (such as images and form fields) that conveys meaning or context.</li>
-<li>Use high-contrast colors. </li>
-<li>Provide audio-timed captions and a transcript for videos and audio, and include job aids as supplements.</li>
-<li>Use talking head videos and videos that include audio descriptions of what’s happening in the video, providing full playback control to the learner.</li>
-<li>Place objects on the slide from left to right, top to bottom in the same order you want them read by a screen reader.</li>
-<li>Use only keyboard-accessible effects on objects that convey meaning or context.</li>
-<li>Provide alternatives to slides with animations, non-descriptive audio, etc.</li>
-<li>Use multiple-choice, true/false, fill-in-the-blank, numeric, short answer, multiple response, pick one, pick many, how many, matching drop-down, sequence drop-down, ranking drop-down, and essay question types; use Likert with caution as this question type may be difficult to parse.</li>
-<li>Provide full-text equivalent for software training (remembering that a transcript is not a full-text equivalent).</li>
-<li>Break content up on separate slides if it won’t fit on one slide. (Don't use scrolling panels)</li>
-<li>Use markers with text content (re:  video markers)</li>
-<li>Use a variety of assessments, giving learners all the time they need to complete them. (Don't include timed tests)</li>
-<li>Add content to the Notes panel.</li>
-</ul>
-	</div>
+		<div class="accordion-body">
+			<h5>Faculty Quick Reference Guide</h5>
+			<ul><li><a href="../quickref/">Quick Reference Guide</a></li></ul>
+			
+			<h5>Tips from &quot;<a href="https://community.articulate.com/kb/e-books/6-best-practices-for-designing-accessible-e-learning/1193957">6 Best Practice for Designing Accessible E-Learning</a>&quot; Guide</h5>
+			<i>2015 Articulate Global, Inc.</i>
+			<ul>   
+			<li>Make sure all course elements are keyboard accessible.</li>
+			<li>Provide a textual alternative to non-text content (such as images and form fields) that conveys meaning or context.</li>
+			<li>Use high-contrast colors. </li>
+			<li>Provide audio-timed captions and a transcript for videos and audio, and include job aids as supplements.</li>
+			<li>Use talking head videos and videos that include audio descriptions of what’s happening in the video, providing full playback control to the learner.</li>
+			<li>Place objects on the slide from left to right, top to bottom in the same order you want them read by a screen reader.</li>
+			<li>Use only keyboard-accessible effects on objects that convey meaning or context.</li>
+			<li>Provide alternatives to slides with animations, non-descriptive audio, etc.</li>
+			<li>Use multiple-choice, true/false, fill-in-the-blank, numeric, short answer, multiple response, pick one, pick many, how many, matching drop-down, sequence drop-down, ranking drop-down, and essay question types; use Likert with caution as this question type may be difficult to parse.</li>
+			<li>Provide full-text equivalent for software training (remembering that a transcript is not a full-text equivalent).</li>
+			<li>Break content up on separate slides if it won’t fit on one slide. (Don't use scrolling panels)</li>
+			<li>Use markers with text content (re:  video markers)</li>
+			<li>Use a variety of assessments, giving learners all the time they need to complete them. (Don't include timed tests)</li>
+			<li>Add content to the Notes panel.</li>
+			</ul>
+		</div>
     </div>
   </div>
 <!-- end accordian item --> 
+<!-- Adobe PDF --> 
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOnehundred" aria-expanded="false" aria-controls="flush-collapseOnehundred">
@@ -125,11 +129,12 @@
     </h2>
     <div id="flush-collapseOnehundred" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-<h5>ITEM</h5>
-Information on PDFs coming soon
+		<h5>ITEM</h5>
+		Information on PDFs coming soon
 	</div>
     </div>
   </div>
+<!-- Media --> 
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
@@ -138,10 +143,11 @@ Information on PDFs coming soon
     </h2>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-Media information coming soon
+		Media information coming soon
 	</div>
     </div>
   </div>
+<!-- PowerPoint --> 
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
@@ -149,9 +155,9 @@ Media information coming soon
       </button>
     </h2>
     <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-PowerPoint Information comming soon
-	</div>
+		<div class="accordion-body">
+			PowerPoint Information comming soon
+		</div>
     </div>
   </div>
 
