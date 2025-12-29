@@ -162,11 +162,11 @@
 <!-- Canvas --> 
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-apanda" aria-expanded="false" aria-controls="flush-apanda">
-        <h3>Media:  Images and Videos</h3>
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsePanda" aria-expanded="false" aria-controls="flush-collapsePanda">
+        <h3>Instructure Canvas</h3>
       </button>
     </h2>
-    <div id="flush-panda1" class="accordion-collapse collapse" data-bs-parent="#flush-apanda">
+    <div id="flush-collapsePanda" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
 		  <div class="accordion-body">
 			<h5>Instructure Canvas</h5>
 			<p>Canvas Information</p>
