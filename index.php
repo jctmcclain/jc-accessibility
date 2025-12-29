@@ -57,7 +57,6 @@
   		</div>
 	</div>
 <!-- end two --> 
-
 <!--- three --> 
 	<div class="col-md-4 mb-5">
   		<div class="card" style="width: 18rem">
@@ -85,8 +84,8 @@
 			<h1 class="alert alert-info" role="alert">Quick Tips</h1>
 		</div>
 		<div class="col-md-12">
-<div class="accordion accordion-flush" id="accordionFlushExample">
-<!-- accordian item --> 
+			<div class="accordion accordion-flush" id="accordionFlushExample">
+<!-- accordion item --> 
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -142,11 +141,252 @@
       </button>
     </h2>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+		  <div class="accordion-body">
+			Media information coming soon
+		</div>
+    </div>
+  </div>
+
+<!-- MOODLE --> 
+<div class="accordion-item">
+	<h2 class="accordion-header">
+	<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+	<h3>Moodle (Legacy)</h3>
+	</button>
+	</h2>
+	<div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+		<div class="accordion-body">
+			<h5>Moodle Tips</h5>
+			<i>Moodle Tips and Tricks</i>
+			<p>
+			Items
+			</p>
+			<h5>Moodle Accessibility Report</h5>
+			<i>Running the Accessibility Report</i>
+			<p>
+			<img src="./images/moodle-accessibility-report.png" alt="Moodle Accessibility Report">
+			</p>
+			<h5>Google Chrome</h5>
+			<i>Lighthouse Panel</i>
+			<p><a href="./images/lighthouse.png"><img src="./images/chrome-lighthouse.png" alt="Chrome Lighthouse Icon which links to a brief how-to guide"></a></p>
+			<p>
+			Google Chrome has a built-in accessibility checker option as part of the web development toolkit - <a href="./images/lighthouse.png">Lighthouse Job Aid</a>
+			</p>
+		</div>
+	</div>
+</div>
+
+</div>			
+		</div>
+	</div>
+	<div class "row">
+		<div class="col-md-12">
+			<h1 class="alert alert-info" role="alert">Microsoft Tips</h1>
+		</div>
+		<div class="col-md-12">
+			<div class="accordion accordion-flush" id="accordionFlushMS">
+<!-- ADD --> 
+<!-- Accessibility for --> 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-a11yfor" aria-expanded="false" aria-controls="flush-a11yfor">
+        <h3>Accessibility for .. </h3>
+      </button>
+    </h2>
+    <div id="flush-a11yfor" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
       <div class="accordion-body">
-		Media information coming soon
+		<h5>Specific audiences:</h5>
+<ul>
+<li><a href="https://support.microsoft.com/en-us/topic/accessibility-tools-for-neurodiversity-6dbd8065-b543-4cf8-bdfb-7c84d9e8f74a">Accessibility tools for neurodiversity</a></li>
+<li><a href="https://support.microsoft.com/en-us/topic/accessibility-tools-for-learning-a610cc7f-6cd1-49ff-a543-214cdf9a0710">Accessibility tools for learning</a></li>
+<li><a href="https://support.microsoft.com/en-us/topic/accessibility-tools-for-mobility-19ff5a45-2d68-4306-9602-05c0aa967c9f">Accessibility tools for mobility</a></li>
+<li><a href="https://support.microsoft.com/en-us/topic/accessibility-tools-for-mental-health-76629671-3fc3-4f06-bf65-7ee02d03f540">Accessibility tools for mental health</a></li>
+</ul>
 	</div>
     </div>
   </div>
+<!-- Accessibility Checker --> 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-a11yChk" aria-expanded="false" aria-controls="flush-a11yChk">
+        <h3>Accessibility Checker</h3>
+      </button>
+    </h2>
+    <div id="flush-a11yChk" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
+      <div class="accordion-body">
+		<h5>Using the Microsoft Accessibility Checker</h5>
+<ul>
+<li><a href="https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f">Improve accessibility with the Accessibility Checker</a></li>
+<li><a href="https://support.microsoft.com/en-us/office/check-accessibility-while-you-work-in-office-apps-ae9e8ea7-1f22-41af-ad04-cc2919daebae">Check accessibility while you work in Office apps</a></li>
+</ul>
+
+	</div>
+    </div>
+  </div>
+<!-- Hearing Impaired --> 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-a11yhearing" aria-expanded="false" aria-controls="flush-a11yhearing">
+        <h3>Hearing Impaired</h3>
+      </button>
+    </h2>
+    <div id="flush-a11yhearing" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
+      <div class="accordion-body">
+      <h5>Hearing Impaired Tools</h5>
+<ul>
+<li><a href="https://support.microsoft.com/en-us/topic/accessibility-tools-for-hearing-111d7360-cd47-4104-aef1-2a33297909ad">Accessibility tools for hearing</a></li>
+<li><a href="https://www.microsoft.com/en-us/research/product/soundscape/">Microsoft Soundscape</a></li>
+</ul>
+
+	</div>
+    </div>
+  </div>
+<!-- Visual Impaired --> 
+   <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-a11yVisual" aria-expanded="false" aria-controls="flush-a11yVisual">
+        <h3>Visually Impaired</h3>
+      </button>
+    </h2>
+    <div id="flush-a11yVisual" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
+      <div class="accordion-body">
+		<h5>Visually Impaired Tools</h5>
+<ul>
+<li><a href="https://www.seeingai.com/?rtc=1">Virtual Assistant for the Blind - Seeing AI</a></li>
+</ul>
+	</div>
+    </div>
+  </div>
+<!-- Microsoft Keyboard Shortcuts Commands --> 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-keybrdShorty" aria-expanded="false" aria-controls="flush-keybrdShorty">
+        <h3>Microsoft Keyboard Shortcuts</h3>
+      </button>
+    </h2>
+    <div id="flush-keybrdShorty" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
+      <div class="accordion-body">
+		<h5>Microsoft Windows Specific Keyboard Commands</h5>
+<ul>
+<li><a href="https://support.microsoft.com/en-us/windows/windows-keyboard-shortcuts-for-accessibility-021bcb62-45c8-e4ef-1e4f-41b8c1fc87fd#WindowsVersion=Windows_11&amp;windowsversion=windows_11">Windows keyboard shortcuts for accessibility</a></li>
+<li><a href="https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec">Keyboard shortcuts in Windows</a></li>
+<li><a href="https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-microsoft-365-e765366f-24fc-4054-870d-39b214f223fd">Keyboard shortcuts in Microsoft 365</a></li>
+</ul>
+
+	</div>
+    </div>
+  </div>
+<!-- Microsoft Excel --> 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-msexcel" aria-expanded="false" aria-controls="flush-msexcel">
+        <h3>Microsoft Excel</h3>
+      </button>
+    </h2>
+    <div id="flush-msexcel" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
+		  <div class="accordion-body">
+			<h5>Microsoft Excel</h5>
+<ul>
+<li><a href="https://support.microsoft.com/en-us/office/accessibility-tools-for-excel-9d06ce53-457b-49dc-abd1-b31a7a92993f">Accessibility tools for Excel</a></li>
+<li> <a href="https://support.microsoft.com/en-us/office/accessibility-best-practices-with-excel-spreadsheets-6cc05fc5-1314-48b5-8eb3-683e49b3e593">Accessibility best practices with Excel spreadsheets</a></li>
+<li><a href="https://support.microsoft.com/en-us/office/converting-text-to-speech-in-excel-3f2ca8c0-90e2-4391-8e69-573832ea7300">Converting text to speech in Excel</a></li>
+</ul>
+		</div>
+    </div>
+  </div>
+
+<!-- Immersive Reader --> 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-a11yir" aria-expanded="false" aria-controls="flush-a11yir">
+        <h3>Microsoft Immersive Reader</h3>
+      </button>
+    </h2>
+    <div id="flush-a11yir" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
+      <div class="accordion-body">
+		<h5>Microsoft Immersive Reader</h5>
+<ul>
+<li><a href="https://support.microsoft.com/en-us/topic/use-immersive-reader-in-microsoft-edge-78a7a17d-52e1-47ee-b0ac-eff8539015e1">Use Immersive Reader in Microsoft Edge</a></li>
+<li><a href="https://support.microsoft.com/en-us/topic/open-immersive-reader-for-outlook-9249595c-4b9d-4f27-9f59-bc590a6152da">Open Immersive Reader for Outlook</a></li>
+<li><a href="https://support.microsoft.com/en-us/office/use-immersive-reader-in-word-a857949f-c91e-4c97-977c-a4efcaf9b3c1">Use Immersive Reader in Word</a></li>
+<li><a href="https://support.microsoft.com/en-us/topic/use-immersive-reader-in-microsoft-teams-a40ca6d4-01a0-449f-b189-5c169f1b0978">Use Immersive Reader in Microsoft Teams</a></li>
+<li><a href="https://support.microsoft.com/en-us/office/use-immersive-reader-in-powerpoint-1d205463-4145-4952-958e-0e823af3bb7b">Use Immersive Reader in PowerPoint</a></li>
+<li><a href="https://support.microsoft.com/en-us/topic/use-immersive-reader-for-onenote-10712138-b4ed-4513-958d-d9a1b3038170">Use Immersive Reader for OneNote</a></li>
+<li><a href="https://support.microsoft.com/en-us/topic/use-immersive-reader-in-microsoft-forms-75d85724-7754-4e2b-8ede-d4619627591c">Use Immersive Reader in Microsoft Forms</a></li>
+</ul>
+	</div>
+    </div>
+  </div>
+<!-- Microsoft Office --> 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-mo" aria-expanded="false" aria-controls="flush-mo">
+        <h3>Microsoft Office</h3>
+      </button>
+    </h2>
+    <div id="flush-mo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
+      <div class="accordion-body">
+      <h5>Microsoft Office Accessibility Tips</h5>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/office/uia/">UI Automation Custom Extensions in Microsoft 365</a></li>
+</ul>
+
+	</div>
+    </div>
+  </div>
+<!-- Office 365 PDF --> 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-o365" aria-expanded="false" aria-controls="flush-o365">
+        <h3>Microsoft Office 365 - PDF</h3>
+      </button>
+    </h2>
+    <div id="flush-o365" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
+      <div class="accordion-body">
+		<h5>Microsoft Office 365 - PDF</h5>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/office/pdf/">Microsoft 365 PDF Accessibility</a></li>
+</ul>
+
+
+	</div>
+    </div>
+  </div>
+<!-- Micorosoft OneDrive --> 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-onedrive" aria-expanded="false" aria-controls="flush-onedrive">
+        <h3>Microsoft OneDrive</h3>
+      </button>
+    </h2>
+    <div id="flush-onedrive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
+      <div class="accordion-body">
+		<h5>Microsoft OneDrive</h5>
+<ul>
+<li><a href="https://support.microsoft.com/en-us/office/accessibility-tools-for-onedrive-3aecd6f4-c67f-4f37-9658-f9d19d35f524">Accessibility tools for OneDrive</a></li>
+</ul>
+
+	</div>
+    </div>
+  </div>
+<!-- Microsoft Out;ook --> 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-moutlook" aria-expanded="false" aria-controls="flush-moutlook">
+        <h3>Microsoft Outlook</h3>
+      </button>
+    </h2>
+    <div id="flush-moutlook" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
+      <div class="accordion-body">
+		<h5>Microsoft Outlook</h5>
+<ul>
+<li><a href="https://support.microsoft.com/en-us/office/accessibility-tools-for-outlook-edd06e42-b2ca-49e8-89f9-2414ec8eeed7">Accessibility tools for Outlook</a></li>
+<li><a href="https://support.microsoft.com/en-us/office/listen-to-your-outlook-email-messages-64e393a4-1229-45c0-acdb-dc93330ebdb3#ID0EDF=Windows&amp;id0edf=outlook_for_web">Listen to your Outlook email messages</a></li>
+</ul>
+
+	</div>
+    </div>
+  </div> 
 <!-- PowerPoint --> 
   <div class="accordion-item">
     <h2 class="accordion-header">
@@ -154,42 +394,67 @@
         <h3>Microsoft PowerPoint</h3>
       </button>
     </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
 		<div class="accordion-body">
-			PowerPoint Information comming soon
+<ul>
+<li><a href="https://support.microsoft.com/en-us/office/accessibility-tools-for-powerpoint-2b7a387c-bc02-408f-8c49-59534665850f">Accessibility tools for PowerPoint</a></li>
+<li><a href="https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25">Make your PowerPoint presentations accessible to people with disabilities</a></li>
+</ul>
 		</div>
     </div>
   </div>
-
+<!-- Microsoft SharePoint --> 
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-        <h3>Moodle</h3>
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-sp" aria-expanded="false" aria-controls="flush-sp">
+        <h3>Microsoft SharePoint</h3>
       </button>
     </h2>
-    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+    <div id="flush-sp" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
       <div class="accordion-body">
-<h5>Moodle Tips</h5>
-<i>Moodle Tips and Tricks</i>
-<p>
-Items
-</p>
-<h5>Moodle Accessibility Report</h5>
-<i>Running the Accessibility Report</i>
-<p>
-<img src="./images/moodle-accessibility-report.png" alt="Moodle Accessibility Report">
-</p>
-<h5>Google Chrome</h5>
-<i>Lighthouse Panel</i>
-<p><a href="./images/lighthouse.png"><img src="./images/chrome-lighthouse.png" alt="Chrome Lighthouse Icon which links to a brief how-to guide"></a></p>
-<p>
-Google Chrome has a built-in accessibility checker option as part of the web development toolkit - <a href="./images/lighthouse.png">Lighthouse Job Aid</a>
-</p>
+		<h5>Microsoft SharePoint</h5>
+<ul>
+<li><a href="https://support.microsoft.com/en-us/office/accessibility-tools-for-sharepoint-0c370f4b-5e27-471a-a14d-fdc58ce5942c">Accessibility tools for SharePoint</a></li>
+</ul>
+
 	</div>
     </div>
   </div>
+<!-- Microsoft Teams --> 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-msteams" aria-expanded="false" aria-controls="flush-msteams">
+        <h3>Microsoft Teams</h3>
+      </button>
+    </h2>
+    <div id="flush-msteams" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
+      <div class="accordion-body">
+		<h5>Microsoft Teams</h5>
+<ul>
+<li><a href="https://support.microsoft.com/en-us/office/accessibility-tools-for-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5">Accessibility tools for Microsoft Teams</a></li>
+</ul>
+	</div>
+    </div>
+  </div>
+<!-- Microsoft Word --> 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-msword" aria-expanded="false" aria-controls="flush-msword">
+        <h3>Microsoft Word</h3>
+      </button>
+    </h2>
+    <div id="flush-msword" class="accordion-collapse collapse" data-bs-parent="#accordionFlushMS">
+      <div class="accordion-body">
+		<h5>Microsoft Word</h5>
+<ul>
+<li><a href="https://support.microsoft.com/en-us/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d">Make your Word documents accessible to people with disabilities</a></li>
+<li><a href="https://support.microsoft.com/en-us/office/listen-to-your-word-documents-5a2de7f3-1ef4-4795-b24e-64fc2731b001#ID0EBD=Windows&amp;id0ebd=windows">Listen to your Word documents</a></li>
+</ul>
 
-</div>			
+	</div>
+    </div>
+  </div>
+			</div>
 		</div>
 	</div>
 	<div class="row">
