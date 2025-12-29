@@ -128,9 +128,9 @@
     </h2>
     <div id="flush-collapseOnehundred" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-		<h5>ITEM</h5>
-		Information on PDFs coming soon
-	</div>
+		<h5>Adobe Accessibility Guide</h5>
+		<ul><li><a href="https://www.adobe.com/accessibility/pdf/pdf-accessibility-overview.html">Overview</a></li></ul>
+	  </div>
     </div>
   </div>
 <!-- Media --> 
@@ -142,10 +142,38 @@
     </h2>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
 		  <div class="accordion-body">
-			Media information coming soon
+			<h5>Handling Media</h5>
+			Use:<br/>
+			<ul>
+				<li>ALT tags</li>
+				<li>descriptive media explanations</li> 
+				<li>ARIA tags</li>
+				<li>Note images used for decoration</li>
+				<li>transcripts for video</li> 
+				<li>Streaming platforms which from transcription/captioning</li> 
+					<ul>
+					<li>Microsoft Stream</li>
+					<li>Instructure Canvas Studio</li>
+					</ul>
+			</ul>
 		</div>
     </div>
   </div>
+<!-- Canvas --> 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-apanda" aria-expanded="false" aria-controls="flush-apanda">
+        <h3>Media:  Images and Videos</h3>
+      </button>
+    </h2>
+    <div id="flush-panda1" class="accordion-collapse collapse" data-bs-parent="#flush-apanda">
+		  <div class="accordion-body">
+			<h5>Instructure Canvas</h5>
+			<p>Canvas Information</p>
+		</div>
+    </div>
+  </div>
+
 
 <!-- MOODLE --> 
 <div class="accordion-item">
