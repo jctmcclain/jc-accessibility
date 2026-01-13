@@ -169,7 +169,33 @@
     <div id="flush-collapsePanda" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
 		  <div class="accordion-body">
 			<h5>Instructure Canvas</h5>
-			<p>Canvas Information</p>
+			<p>
+			<a href="https://www.instructure.com/accessibility">Instructure Accessibility Site</a><br>
+			<p><h3>CAR - Canvas Accessibility Resources</h3></p>
+			<p><h4>Be proactive!</h4><p>
+			<strong>Adopt the following tools in your course design workflow:</strong>
+			<ul>
+			<li>Rich content editor (RCE) <a href="https://community.instructure.com/en/kb/articles/662936-how-do-i-use-the-accessibility-checker-in-the-rich-content-editor">accessibility checker</a></li>
+			<li>Integrated Microsoft <a href="https://www.microsoft.com/en-us/edge/features/immersive-reader?form=MT0160">Immersive Reader</a><br/>
+				<i>(press F9 or use the Immersive Reader icon)</i>
+			</li>
+			</ul>
+			</p>
+			<p><h3>RCE Tips</h3></p>
+			<ul>
+<li><strong>Adjacent links:</strong> Adjacent links with the same URL should be a single link. This rule verifies link errors where the link text may include spaces and break the link into multiple links.</li>
+<li><strong>Heading paragraphs:</strong> Headings should not contain more than 120 characters.</li>
+<li><strong>Image alt text:</strong> Images should include an alt attribute describing the image content.</li>
+<li><strong>Image alt filename:</strong> Image filenames should not be used as the alt attribute describing the image content. Currently, files uploaded directly to Canvas create a redirect that does not properly verify image filenames.</li>
+<li><strong>Image alt length:</strong> Alt attribute text is recommended to contain fewer than 120 characters.</li>
+<li><strong>Large text contrast:</strong> Text larger than 18pt (or bold 14pt) should display a minimum contrast ratio of 3:1.</li>
+<li>Lists: Lists should be formatted as lists.</li>
+<li><strong>Sequential headings:</strong> Heading levels should not be skipped (e.g. H2 to H4). However, the tool does not check if the first header starts with H2 or whether the headings are sequential with the rest of the content in the page. Tables do not begin with H1, which is designated for the page title.</li>
+<li><strong>Small text contrast:</strong> Text smaller than 18pt (or bold 14pt) should display a minimum contrast ratio of 4.5:1.</li>
+<li><strong>Table captions:</strong> Tables should include a caption describing the contents of the table.</li>
+<li><strong>Table header scope:</strong> Table headers should specify scope and the appropriate structure.</li>
+<li><strong>Table header:</strong> Tables should include at least one header.</li>
+			</ul>
 		</div>
     </div>
   </div>
